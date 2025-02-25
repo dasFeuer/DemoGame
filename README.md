@@ -6,7 +6,7 @@ This project was generated with a template including simple application launcher
 
 ## Platforms
 
-- `core`: Main module with the application logic shared by all platforms.
+- `core`: StickmanGameDesktopLauncher module with the application logic shared by all platforms.
 - `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
 - `html`: Web platform using GWT and WebGL. Supports only Java projects.
 

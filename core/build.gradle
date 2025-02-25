@@ -9,5 +9,9 @@ dependencies {
 
   if(enableGraalNative == 'true') {
     implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
+    implementation "com.badlogic.gdx:gdx:$gdxVersion"
+    implementation "com.badlogic.gdx:gdx-box2d:$gdxVersion"
+    implementation 'com.badlogicgames.gdx:gdx-backend-lwjgl:1.11.0'  // Use latest version
+
   }
 }

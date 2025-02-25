@@ -7,7 +7,7 @@
   <!-- "Inherits" lines are how GWT knows where to look for code and configuration in other projects or libraries. -->
   <inherits name="com.badlogic.gdx.backends.gdx_backends_gwt" />
   <inherits name="com.badlogic.gdx.physics.box2d.box2d-gwt" />
-  <inherits name="demoGame.com.Core" />
+  <inherits name="demoGame.com.StickmanFightGame" />
   <inherits name="dev.lyze.gdxUnBox2d" />
   <inherits name="space.earlygrey.shapedrawer" />
 
