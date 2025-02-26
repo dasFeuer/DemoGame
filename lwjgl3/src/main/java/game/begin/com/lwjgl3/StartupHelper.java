@@ -14,7 +14,7 @@
  */
 //Note, the above license and copyright applies to this file only.
 
-package stickMan.com.lwjgl3;
+package game.begin.com.lwjgl3;
 
 import org.lwjgl.system.macosx.LibC;
 
