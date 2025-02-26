@@ -1,4 +1,4 @@
-package demoGame.com;
+package stickMan.com;
 
 public class PowerUp {
 }

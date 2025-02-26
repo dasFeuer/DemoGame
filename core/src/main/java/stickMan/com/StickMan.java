@@ -1,4 +1,4 @@
-package demoGame.com;
+package stickMan.com;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -41,9 +41,8 @@ public class StickMan {
         } catch (Exception e) {
             System.err.println("Failed to create and load stickman.png: " + e.getMessage());
             e.printStackTrace();
-            // Create a fallback texture
             Pixmap pixmap = new Pixmap(64, 64, Pixmap.Format.RGBA8888);
-            pixmap.setColor(1, 0, 0, 1); // Red color
+            pixmap.setColor(1, 0, 0, 1);
             pixmap.fill();
             texture = new Texture(pixmap);
             pixmap.dispose();

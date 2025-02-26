@@ -1,4 +1,4 @@
-package demoGame.com;
+package stickMan.com;
 
 import com.badlogic.gdx.Game;
 
