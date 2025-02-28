@@ -1,9 +1,9 @@
 package game.begin.com;
 
+
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
-
 
 public class Brick {
     private Rectangle bounds;
@@ -15,26 +15,25 @@ public class Brick {
         texture = new Texture("brick.png");
     }
 
-    public void draw(SpriteBatch batch){
-        if(!destroyed){
+    public void draw(SpriteBatch batch) {
+        if (!destroyed) {
             batch.draw(texture, bounds.x, bounds.y, bounds.width, bounds.height);
         }
     }
 
-    public boolean checkCollision(Ball ball){
-        if(!destroyed && bounds.overlaps(ball.getBounds())){
+    public boolean checkCollision(Ball ball) {
+        if (!destroyed && bounds.overlaps(ball.getBounds())) {
             destroyed = true;
             return true;
         }
         return false;
     }
 
-    public boolean isDestroyed(){
+    public boolean isDestroyed() {
         return destroyed;
     }
 
-    public void dispose(){
+    public void dispose() {
         texture.dispose();
     }
-
 }
